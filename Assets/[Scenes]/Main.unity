@@ -322,7 +322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7062864195255577514, guid: ddc201660d74de34c95cad421ce6f4d2, type: 3}
       propertyPath: verticalSpeed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7062864195255577514, guid: ddc201660d74de34c95cad421ce6f4d2, type: 3}
       propertyPath: verticalDistance
@@ -7303,7 +7303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7062864195255577514, guid: ddc201660d74de34c95cad421ce6f4d2, type: 3}
       propertyPath: verticalSpeed
-      value: 2.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7062864195255577514, guid: ddc201660d74de34c95cad421ce6f4d2, type: 3}
       propertyPath: verticalDistance
