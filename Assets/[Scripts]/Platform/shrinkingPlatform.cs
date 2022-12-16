@@ -2,7 +2,15 @@ using System.CodeDom.Compiler;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+ 
+ Source file Name - shrinkingPlatform.cs
+ Name - Vitaliy Karabanov
+ ID - 101312885
+ Date last Modified - 12/16/2022 
+ Program description: Script for shrinking platform, when we start triggering we want to start shrink the platform, and when we exit trigger we want to grow it back;
 
+ */
 public class shrinkingPlatform : MonoBehaviour
 {
     BoxCollider2D boxCollider;

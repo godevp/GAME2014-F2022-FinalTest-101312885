@@ -46,6 +46,8 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Score")]
     public TMP_Text scoreText;
     public int Score = 0;
+
+
     private Rigidbody2D rigidbody2D;
     private SoundManager soundManager;
 
