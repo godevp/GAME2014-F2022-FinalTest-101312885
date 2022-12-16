@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -42,7 +43,9 @@ public class PlayerBehaviour : MonoBehaviour
     public Joystick leftStick;
     [Range(0.1f, 1.0f)]
     public float verticalThreshold;
-
+    [Header("Score")]
+    public TMP_Text scoreText;
+    public int Score = 0;
     private Rigidbody2D rigidbody2D;
     private SoundManager soundManager;
 
